@@ -1,4 +1,3 @@
 ### to run this repo
 
-npm install all --force
-npm start
+npm install all --force, then, npm start to run the dapp
