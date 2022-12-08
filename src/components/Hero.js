@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 import to from 'await-to-js';
 import DeroBridgeApi from 'dero-rpc-bridge-api';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-
+import './hero.css'
 
 
 const Hero = () => {
@@ -18,9 +18,9 @@ const Hero = () => {
       const deroBridgeApi = deroBridgeApiRef.current
       const [err] = await to(deroBridgeApi.init())
       if (err) {
-        setBridgeInitText('failed to connect to extension')
+        setBridgeInitText('RPC Bridge connection failed!!!')
       } else {
-        setBridgeInitText('connected to extension')
+        setBridgeInitText('Connected to RPC bridge')
       }
     }
 
@@ -56,7 +56,7 @@ const Hero = () => {
     <div className=' text-white'>
         
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className='text-[#00df9a] font-bold p-2'>
+        <p className='neon-text md:text-7xl sm:text-6xl text-4xl font-bold p-2'>
           Garden Of Heathens
         </p>
         <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
@@ -67,18 +67,19 @@ const Hero = () => {
             Spinning The Webs Of Nature
           </p>
           <Typed
-          className='md:text-5xl sm:text-4xl text-xl flex font-bold md:pl-4 pl-2'
+          className='md:text-5xl neon-text sm:text-4xl text-xl flex font-bold md:pl-4 pl-2'
             strings={['Join', 'Our', 'Mission']}
             typeSpeed={120}
             backSpeed={140}
             loop
           />
         </div>
-        <p>
+        <p className='neon-text' >
           {bridgeInitText}
         </p>
-        <button onClick={getRando} className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>GetRando</button>
-        <button onClick={UpdateRando} className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Update</button>
+        <button onClick={getRando} className='neon-button w-[200px] rounded-md font-medium my-6 mx-auto py-3'>GetNFT</button>
+        <button onClick={UpdateRando} className='neon-button w-[200px] rounded-md font-medium my-6 mx-auto py-3'>Mint</button>
+
       </div>
     </div>
   );

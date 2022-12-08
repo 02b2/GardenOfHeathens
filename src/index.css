@@ -10,3 +10,13 @@ body {
   height: 100vh;
   background-color: black;
 }
+
+.singleCol {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.social-media-icons-white a {
+  color: white;
+  font-size: 2rem;
+}
