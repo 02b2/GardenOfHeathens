@@ -2,6 +2,8 @@ import React from 'react';
 import Typed from 'react-typed';
 import to from 'await-to-js';
 import DeroBridgeApi from 'dero-rpc-bridge-api';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 
 
 const Hero = () => {
@@ -51,7 +53,7 @@ const Hero = () => {
   })
 
   return (
-    <div className='text-white'>
+    <div className=' text-white'>
         
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
         <p className='text-[#00df9a] font-bold p-2'>
