@@ -67,7 +67,7 @@ const Hero = () => {
             Spinning The Webs Of Nature
           </p>
           <Typed
-          className='md:text-5xl neon-text sm:text-4xl text-xl flex font-bold md:pl-4 pl-2'
+          className='md:text-5xl neon-textsm:text-4xl text-xl flex font-bold md:pl-4 pl-2'
             strings={['Join', 'Our', 'Mission']}
             typeSpeed={120}
             backSpeed={140}

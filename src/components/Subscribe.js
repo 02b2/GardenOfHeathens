@@ -15,7 +15,7 @@ const Subscribe = () => {
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                 nisi ut aliquip ex ea commodo consequat.</p>
-                <a className='bg-transparent text-white' href="#">subscribe</a>
+                <button className='neon-button w-[100px] rounded-md font-medium my-6 mx-auto py-3' >Subscribe</button>
         </div> 
     </div>
     <div className='box'>
@@ -26,7 +26,7 @@ const Subscribe = () => {
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                 nisi ut aliquip ex ea commodo consequat.</p>
-                <a className='bg-transparent text-white' href="#">subscribe</a>
+                <button className='neon-button w-[100px] rounded-md font-medium my-6 mx-auto py-3' >Subscribe</button>
         </div> 
     </div>   <div className='box'>
         <span></span>
@@ -36,7 +36,7 @@ const Subscribe = () => {
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                 nisi ut aliquip ex ea commodo consequat.</p>
-                <a className='bg-transparent text-white' href="#">subscribe</a>
+                <button className='neon-button w-[100px] rounded-md font-medium my-6 mx-auto py-3' >Subscribe</button>
         </div> 
     </div>
 </div>
